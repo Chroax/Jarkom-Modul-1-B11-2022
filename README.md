@@ -28,12 +28,15 @@ Praktikum Jaringan Komputer Modul 1 Tahun 2022
 ## Question 1
 > Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 ### Screenshots
-![App Screenshot](https://i.ibb.co/zS7pcx8/part-1.png)
+![App Screenshot](https://i.ibb.co/82LGq7f/part-1.png)
+
 Pertama cari dengan mengetikkan pada filter `monta.if.its.ac.id`
 
 ### Screenshots
-![App Screenshot](https://i.ibb.co/bvfRP6s/part-2.png)
+![App Screenshot](https://i.ibb.co/QJGcG6x/part-2.png)
+
 Setelah itu klik kanan pada salah satu paket dan pilih `Follow > TCP Stream`
+
 ### Answer
 
 Akan muncul beberapa informasi, informasi web server dapat dilihat pada tulisan server yang mana webserver yang digunakan adalah 
@@ -60,95 +63,50 @@ Keterangan
   host 1.1.1.1
 ```
 ## Question 3
-> Soal
+> Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/P1Lmz02/part-1.png)
 
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+Cari dengan mengetikkan pada display filter `tcp.dstport == 80`
 
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
 ## Question 4
-> Soal
+> Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/hBm8HH1/part-1.png)
 
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+Cari dengan mengetikkan pada display filter `tcp.srcport == 21`
 
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
 ## Question 5
-> Soal
+> Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/2s484LW/part-1.png)
 
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+Cari dengan mengetikkan pada display filter `tcp.srcport == 443`
 
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
 ## Question 6
-> Soal
+> Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/PYmmtRN/part-1.png)
 
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+Cari dengan mengetikkan pada display filter `tcp contains lipi.go.id`
 
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
 ## Question 7
-> Soal
+> Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/6vnC3pp/part-2.png)
+
+Cari settingan ip wifi yang kamu gunakkan, jika menggunakan windows silahkan cari settings, lalu cari `Network & Internet`, kemudian cari wifi, lalu klik wifi yang sedang kamu gunakkan, dan lihat di paling bawah ada ip untuk wifi yang kamu gunakkan
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/3dnT3mG/part-1.png)
 
-### Answer
+Cari dengan mengetikkan pada display filter `ip.src == 192.168.100.28`
 
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
 ## Question 8
 > Soal
 
