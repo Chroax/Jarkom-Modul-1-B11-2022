@@ -44,24 +44,37 @@ Akan muncul beberapa informasi, informasi web server dapat dilihat pada tulisan 
 ```bash
   nginx/1.10.3
 ```
+
+
 ## Question 2
-> Soal
+> Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/L9NMJ0S/part-1.png)
+
+Pertama kita harus memfilter paket untuk mendapatkan paket hanya dari "monta.if.its.ac.id" dengan mengetikkan `tcp contains monta.if.its.ac.id`
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://i.ibb.co/GF6ftFN/part-2.png)
+
+Lalu klik kanan pada paket yang berisi detailTopik lalu klik `Follow > TCP Stream`. Kemudian ubah data dari ASCII menjadi raw dan save dengan extension '.zip'. Setelah itu extract file zip tersebut dan ubah extension yang didapatkan menjadi 'html', lalu buka pada browser yang ada
+
+### Screenshots
+![App Screenshot](https://i.ibb.co/6DbZ8Zn/part-3.png)
+
+![App Screenshot](https://i.ibb.co/M1mhxs2/part-4.png)
+
+Akan muncul html dan terlihat proposal yang dibuka oleh Ishaq
 
 ### Answer
 
-Keterangan
+Judul TA yang dibuka oleh Ishaq
 
 ```bash
-  host 1.1.1.1
+  Perancangan Sistem Pengendali Panas Otomatis pada Mesin Sangrai Kopi dengan Logika Fuzzy
 ```
+
+
 ## Question 3
 > Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
 
@@ -69,6 +82,7 @@ Keterangan
 ![App Screenshot](https://i.ibb.co/P1Lmz02/part-1.png)
 
 Cari dengan mengetikkan pada display filter `tcp.dstport == 80`
+
 
 ## Question 4
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
@@ -78,6 +92,7 @@ Cari dengan mengetikkan pada display filter `tcp.dstport == 80`
 
 Cari dengan mengetikkan pada display filter `tcp.srcport == 21`
 
+
 ## Question 5
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
@@ -86,6 +101,7 @@ Cari dengan mengetikkan pada display filter `tcp.srcport == 21`
 
 Cari dengan mengetikkan pada display filter `tcp.srcport == 443`
 
+
 ## Question 6
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 
@@ -93,6 +109,7 @@ Cari dengan mengetikkan pada display filter `tcp.srcport == 443`
 ![App Screenshot](https://i.ibb.co/PYmmtRN/part-1.png)
 
 Cari dengan mengetikkan pada display filter `tcp contains lipi.go.id`
+
 
 ## Question 7
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
@@ -106,6 +123,7 @@ Cari settingan ip wifi yang kamu gunakkan, jika menggunakan windows silahkan car
 ![App Screenshot](https://i.ibb.co/3dnT3mG/part-1.png)
 
 Cari dengan mengetikkan pada display filter `ip.src == 192.168.100.28`
+
 
 ## Question 8
 > Soal
@@ -125,6 +143,8 @@ Keterangan
 ```bash
   host 1.1.1.1
 ```
+
+
 ## Question 9
 > Soal
 
@@ -143,6 +163,8 @@ Keterangan
 ```bash
   host 1.1.1.1
 ```
+
+
 ## Question 10
 > Soal
 
@@ -161,95 +183,6 @@ Keterangan
 ```bash
   host 1.1.1.1
 ```
-## Question 11
-> Soal
 
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
-## Question 12
-> Soal
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
-## Question 13
-> Soal
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
-## Question 14
-> Soal
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
-## Question 15
-> Soal
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
 ## Kendala
 - Keterangan kendala
