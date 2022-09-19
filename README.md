@@ -55,21 +55,23 @@ Akan muncul beberapa informasi, informasi web server dapat dilihat pada tulisan 
 Pertama kita harus memfilter paket untuk mendapatkan paket hanya dari "monta.if.its.ac.id" dengan mengetikkan `tcp contains monta.if.its.ac.id`
 
 ### Screenshots
-![image](https://user-images.githubusercontent.com/77435642/191052816-d883a137-2671-48cc-a504-1e92288d0d92.png)
+![App Screenshot](https://i.ibb.co/GF6ftFN/part-2.png)
 
-Lalu klik pada paket yang berisi detailTopik. Akan didapatkan info mengenai URI apa yang direquest oleh Ishaq. Dalam hal ini hal yang direquest adalah 'http://monta.if.its.ac.id/index.php/topik/detailTopik/194'. Lalu buka alamat link tersebut
+Lalu klik kanan pada paket yang berisi detailTopik lalu klik `Follow > TCP Stream`. Kemudian ubah data dari ASCII menjadi raw dan save dengan extension '.zip'. Setelah itu extract file zip tersebut dan ubah extension yang didapatkan menjadi 'html', lalu buka pada browser yang ada
 
 ### Screenshots
-![image](https://user-images.githubusercontent.com/77435642/191052931-143ca6ef-44ff-4f95-bc4e-2c7e393d401d.png)
+![App Screenshot](https://i.ibb.co/6DbZ8Zn/part-3.png)
 
-Akan muncul judul TA yang dilihat oleh Ishaq
+![App Screenshot](https://i.ibb.co/M1mhxs2/part-4.png)
+
+Akan muncul html dan terlihat proposal yang dibuka oleh Ishaq
 
 ### Answer
 
 Judul TA yang dibuka oleh Ishaq
 
 ```bash
-  Evaluasi unjuk kerja User Space Filesystem (FUSE)
+  Perancangan Sistem Pengendali Panas Otomatis pada Mesin Sangrai Kopi dengan Logika Fuzzy
 ```
 
 
@@ -137,7 +139,7 @@ Keterangan
 Setelah mendownload file dari drive, buka file menggunakan Wireshark. Kemudian, apabila di scroll ke bawah, ditemukan percakapan seperti gambar di atas.
 
 ### Answer
-Untuk mendapatkakn kompilasi percakapan, kami menggunakan filter ```bash tcp.stream eq 12``` kemudian klik di salah satu percakapan, lalu klik follow dan TCP Stream.
+Untuk mendapatkakn kompilasi percakapan, kami menggunakan filter ```tcp.stream eq 12``` kemudian klik di salah satu percakapan, lalu klik follow dan TCP Stream.
 
 Berikut adalah kompilasi percakapannya,
 ![Screenshot from 2022-09-19 21-40-13](https://user-images.githubusercontent.com/81427127/191050336-a87e63bb-89e8-457b-93c3-8012dd2ae99d.png)
@@ -151,20 +153,15 @@ kepada atasan, beri nama file yang ditemukan dengan format
 [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![save file](https://user-images.githubusercontent.com/90445721/191053282-db9142ff-ca78-47a3-b1f8-97d77c43103b.jpeg)
 Keterangan
+Selain menemukan percakapan setelah di scroll kami menemukan kode yang dicari. Selanjutnya, klik kanan pada kode tsb. kemudian klik Export Packet Bytes lalu beri nama file sesuai yang diminta.
+
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![terminal](https://user-images.githubusercontent.com/90445721/191054096-b61cdcb3-1fa7-4588-ad76-5a5099115158.jpeg)
 Keterangan
-
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
+Untuk decrypt codenya, gunakan terminal dan ketik sesuai gambar di atas dan masukkan ke file flag.txt
 
 
 ## Question 10
@@ -172,20 +169,11 @@ Keterangan
 atas!
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![password](https://user-images.githubusercontent.com/90445721/191054416-a04abb36-443b-4db6-8a2d-721b221261a8.jpeg)
 Keterangan
+Lanjut dari no.9, setelah flag.txt disimpan, buka files. Dan passwordnya akan muncul seperti gambar di atas.
 
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
-### Answer
-
-Keterangan
-
-```bash
-  host 1.1.1.1
-```
 
 ## Kendala
 - Keterangan kendala
+- Harus menggunakan Ubuntu untuk nomor 8, 9, dan 10.
