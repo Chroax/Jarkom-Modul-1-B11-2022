@@ -26,14 +26,13 @@ Praktikum Jaringan Komputer Modul 1 Tahun 2022
 14. [Soal 14](#Question-14)
 15. [Soal 15](#Question-15)
 ## Question 1
-> Soal
-
+> Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 ### Screenshots
-![App Screenshot](https://im.ge/i/1sPMTL)
+![App Screenshot](https://i.ibb.co/zS7pcx8/part-1.png)
 Pertama cari dengan mengetikkan pada filter `monta.if.its.ac.id`
 
 ### Screenshots
-![App Screenshot](https://im.ge/i/1sPT3x)
+![App Screenshot](https://i.ibb.co/bvfRP6s/part-2.png)
 Setelah itu klik kanan pada salah satu paket dan pilih `Follow > TCP Stream`
 ### Answer
 
