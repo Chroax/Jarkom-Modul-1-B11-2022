@@ -20,7 +20,11 @@ Praktikum Jaringan Komputer Modul 1 Tahun 2022
 8. [Soal 8](#Question-8)
 9. [Soal 9](#Question-9)
 10. [Soal 10](#Question-10)
-
+11. [Soal 11](#Question-11)
+12. [Soal 12](#Question-12)
+13. [Soal 13](#Question-13)
+14. [Soal 14](#Question-14)
+15. [Soal 15](#Question-15)
 ## Question 1
 > Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 ### Screenshots
@@ -122,7 +126,11 @@ Cari dengan mengetikkan pada display filter `ip.src == 192.168.100.28`
 
 
 ## Question 8
-> Soal
+> Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa
+percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan
+praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan
+tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu
+menerapkan filter dengan protokol yang tersebut.
 
 ### Screenshots
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
@@ -142,7 +150,10 @@ Keterangan
 
 
 ## Question 9
-> Soal
+> Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam
+percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan
+kepada atasan, beri nama file yang ditemukan dengan format
+[nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
 
 ### Screenshots
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
@@ -162,7 +173,8 @@ Keterangan
 
 
 ## Question 10
-> Soal
+> Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di
+atas!
 
 ### Screenshots
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
