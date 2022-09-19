@@ -20,8 +20,11 @@ Praktikum Jaringan Komputer Modul 1 Tahun 2022
 8. [Soal 8](#Question-8)
 9. [Soal 9](#Question-9)
 10. [Soal 10](#Question-10)
-
-
+11. [Soal 11](#Question-11)
+12. [Soal 12](#Question-12)
+13. [Soal 13](#Question-13)
+14. [Soal 14](#Question-14)
+15. [Soal 15](#Question-15)
 ## Question 1
 > Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 ### Screenshots
@@ -123,27 +126,24 @@ Cari dengan mengetikkan pada display filter `ip.src == 192.168.100.28`
 
 
 ## Question 8
-> Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa
-percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan
+> Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan
 praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan
 tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu
 menerapkan filter dengan protokol yang tersebut.
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![Screenshot from 2022-09-19 21-50-07](https://user-images.githubusercontent.com/81427127/191049525-e3c757b1-5212-465f-9142-0b3a6285c327.png)
+![Screenshot from 2022-09-19 21-50-12](https://user-images.githubusercontent.com/81427127/191049850-123c16ac-709f-46be-b595-1eaadb34d3fa.png)
 
-### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 Keterangan
+Setelah mendownload file dari drive, buka file menggunakan Wireshark. Kemudian, apabila di scroll ke bawah, ditemukan percakapan seperti gambar di atas.
 
 ### Answer
+Untuk mendapatkakn kompilasi percakapan, kami menggunakan filter ```bash tcp.stream eq 12``` kemudian klik di salah satu percakapan, lalu klik follow dan TCP Stream.
 
-Keterangan
+Berikut adalah kompilasi percakapannya,
+![Screenshot from 2022-09-19 21-40-13](https://user-images.githubusercontent.com/81427127/191050336-a87e63bb-89e8-457b-93c3-8012dd2ae99d.png)
 
-```bash
-  host 1.1.1.1
-```
 
 
 ## Question 9
