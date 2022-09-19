@@ -62,7 +62,7 @@ Lalu klik pada paket yang berisi detailTopik. Akan didapatkan info mengenai URI 
 ### Screenshots
 ![image](https://user-images.githubusercontent.com/77435642/191052931-143ca6ef-44ff-4f95-bc4e-2c7e393d401d.png)
 
-Akan muncul judul TA yang dilihat oleh Ishaw
+Akan muncul judul TA yang dilihat oleh Ishaq
 
 ### Answer
 
