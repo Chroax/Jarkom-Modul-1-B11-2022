@@ -5,8 +5,8 @@ Praktikum Jaringan Komputer Modul 1 Tahun 2022
 ## Authors
 
 - [@Cahyadi Surya Nugraha 5025201184](https://github.com/Chroax)
-- [@Sarah Alissa Putri 5025201272](https://www.github.com/octokatherine)
-- [@Ravin Pradhitya 5025201068](https://www.github.com/octokatherine)
+- [@Sarah Alissa Putri 5025201272](https://github.com/sharrju)
+- [@Ravin Pradhitya 5025201068](https://github.com/ravinpradhitya)
 
 
 ## List Question
