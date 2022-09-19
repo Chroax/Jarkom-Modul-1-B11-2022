@@ -29,19 +29,18 @@ Praktikum Jaringan Komputer Modul 1 Tahun 2022
 > Soal
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
+![App Screenshot](https://im.ge/i/1sPMTL)
+Pertama cari dengan mengetikkan pada filter `monta.if.its.ac.id`
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-Keterangan
-
+![App Screenshot](https://im.ge/i/1sPT3x)
+Setelah itu klik kanan pada salah satu paket dan pilih `Follow > TCP Stream`
 ### Answer
 
-Keterangan
+Akan muncul beberapa informasi, informasi web server dapat dilihat pada tulisan server yang mana webserver yang digunakan adalah 
 
 ```bash
-  host 1.1.1.1
+  nginx/1.10.3
 ```
 ## Question 2
 > Soal
