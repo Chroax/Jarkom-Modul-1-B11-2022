@@ -55,23 +55,21 @@ Akan muncul beberapa informasi, informasi web server dapat dilihat pada tulisan 
 Pertama kita harus memfilter paket untuk mendapatkan paket hanya dari "monta.if.its.ac.id" dengan mengetikkan `tcp contains monta.if.its.ac.id`
 
 ### Screenshots
-![App Screenshot](https://i.ibb.co/GF6ftFN/part-2.png)
+![image](https://user-images.githubusercontent.com/77435642/191052816-d883a137-2671-48cc-a504-1e92288d0d92.png)
 
-Lalu klik kanan pada paket yang berisi detailTopik lalu klik `Follow > TCP Stream`. Kemudian ubah data dari ASCII menjadi raw dan save dengan extension '.zip'. Setelah itu extract file zip tersebut dan ubah extension yang didapatkan menjadi 'html', lalu buka pada browser yang ada
+Lalu klik pada paket yang berisi detailTopik. Akan didapatkan info mengenai URI apa yang direquest oleh Ishaq. Dalam hal ini hal yang direquest adalah 'http://monta.if.its.ac.id/index.php/topik/detailTopik/194'. Lalu buka alamat link tersebut
 
 ### Screenshots
-![App Screenshot](https://i.ibb.co/6DbZ8Zn/part-3.png)
+![image](https://user-images.githubusercontent.com/77435642/191052931-143ca6ef-44ff-4f95-bc4e-2c7e393d401d.png)
 
-![App Screenshot](https://i.ibb.co/M1mhxs2/part-4.png)
-
-Akan muncul html dan terlihat proposal yang dibuka oleh Ishaq
+Akan muncul judul TA yang dilihat oleh Ishaw
 
 ### Answer
 
 Judul TA yang dibuka oleh Ishaq
 
 ```bash
-  Perancangan Sistem Pengendali Panas Otomatis pada Mesin Sangrai Kopi dengan Logika Fuzzy
+  Evaluasi unjuk kerja User Space Filesystem (FUSE)
 ```
 
 
