@@ -19,7 +19,7 @@ Praktikum Jaringan Komputer Modul 1 Tahun 2022
 7. [Soal 7](#Question-7)
 8. [Soal 8](#Question-8)
 9. [Soal 9](#Question-9)
-
+10. [Soal 10](#Question-10)
 
 ## Question 1
 > Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
