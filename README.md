@@ -131,11 +131,9 @@ menerapkan filter dengan protokol yang tersebut.
 ![Screenshot from 2022-09-19 21-50-07](https://user-images.githubusercontent.com/81427127/191049525-e3c757b1-5212-465f-9142-0b3a6285c327.png)
 ![Screenshot from 2022-09-19 21-50-12](https://user-images.githubusercontent.com/81427127/191049850-123c16ac-709f-46be-b595-1eaadb34d3fa.png)
 
-Keterangan
-Setelah mendownload file dari drive, buka file menggunakan Wireshark. Kemudian, apabila di scroll ke bawah, ditemukan percakapan seperti gambar di atas.
 
 ### Answer
-Untuk mendapatkakn kompilasi percakapan, kami menggunakan filter ```tcp.stream eq 12``` kemudian klik di salah satu percakapan, lalu klik follow dan TCP Stream.
+Setelah mendownload file dari drive, buka file menggunakan Wireshark. Kemudian, apabila di scroll ke bawah sampai ditemukan percakapan yang sesuai dengan apa yang diminta soal. Di No.17, sudah memasuki percakapan tentang praktikum, lalu klik kanan kemudian klik ```Follow -> TCP Stream```. Atau untuk mendapatkakn kompilasi percakapan, dapat menggunakan filter ```tcp.stream eq 12``` kemudian klik di salah satu percakapan, lalu klik follow dan TCP Stream.
 
 Berikut adalah kompilasi percakapannya,
 ![Screenshot from 2022-09-19 21-40-13](https://user-images.githubusercontent.com/81427127/191050336-a87e63bb-89e8-457b-93c3-8012dd2ae99d.png)
@@ -151,12 +149,14 @@ kepada atasan, beri nama file yang ditemukan dengan format
 ### Screenshots
 ![save file](https://user-images.githubusercontent.com/90445721/191053282-db9142ff-ca78-47a3-b1f8-97d77c43103b.jpeg)
 Keterangan
-Selain menemukan percakapan setelah di scroll kami menemukan kode yang dicari. Selanjutnya, klik kanan pada kode tsb. kemudian klik Export Packet Bytes lalu beri nama file sesuai yang diminta.
+
+Setelah mendapatkan clue dari percakapan, diketahui file dikirim lewat ```port 9002```. Maka di filter ```tcp.port == 9002```. Kami menemukan kode di No.61, klik kanan pada kode tsb. kemudian klik Export Packet Bytes lalu beri nama file sesuai yang diminta.
 
 
 ### Screenshots
 ![terminal](https://user-images.githubusercontent.com/90445721/191054096-b61cdcb3-1fa7-4588-ad76-5a5099115158.jpeg)
 Keterangan
+
 Untuk decrypt codenya, gunakan terminal dan ketik sesuai gambar di atas dan masukkan ke file flag.txt
 
 
@@ -171,5 +171,5 @@ Lanjut dari no.9, setelah flag.txt disimpan, buka files. Dan passwordnya akan mu
 
 
 ## Kendala
-- Keterangan kendala
+Keterangan kendala
 - Harus menggunakan Ubuntu untuk nomor 8, 9, dan 10.
